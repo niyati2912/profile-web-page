@@ -5,14 +5,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Niyati's Portfolio</title>
 <link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
 </head>
 <body>
 
-<!-- 💧 Bubble / Background Container -->
-<div id="background-style"></div>
+<div id="background-style">
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="bubble"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+<div class="star"></div>
+</div>
 
-<!-- 💜 Header -->
-<header>
+
+<header class="animate-section">
 <h1>Niyati Aggarwal</h1>
 <p>Computer Science Student | Aspiring Software Engineer</p>
 <div class="toggle-buttons">
@@ -21,18 +33,19 @@
 </div>
 </header>
 
-<!-- 🧍 About Section -->
-<section>
+
+<section class="animate-section">
 <h2 class="section-title">About Me</h2>
 <p>
-    Hi! I'm Niyati, a Computer Science and Engineering student. I'm learning C++, building projects, and exploring design!
+    Hi! I'm Niyati, a Computer Science and Engineering student. I am pursuing my bachelors in CSE AI&ML.
+    I'm learning C++, building projects, and exploring AI and falling in love with machine learning!
 </p>
 </section>
 
-<!-- 🛠 Skills Section -->
-<section>
+
+<section class="animate-section">
 <h2 class="section-title">Skills</h2>
-<ul>
+<ul class="skills-list">
     <li>C++ Programming</li>
     <li>Data Structures</li>
     <li>Python (Basics)</li>
@@ -42,8 +55,18 @@
 </ul>
 </section>
 
-<!-- 📁 Projects -->
-<section>
+
+<section class="animate-section sticker-section">
+<h2 class="section-title">My Stickers</h2>
+<div class="sticker-area">
+    <div class="sticker placeholder">Sticker 1</div>
+    <div class="sticker placeholder">Sticker 2</div>
+    <div class="sticker placeholder">Sticker 3</div>
+</div>
+</section>
+
+
+<section class="animate-section">
 <h2 class="section-title">Projects</h2>
 <div class="project">
     <h3>Online Bookstore</h3>
@@ -51,19 +74,19 @@
 </div>
 </section>
 
-<!-- 📫 Contact -->
-<section>
+
+<section class="animate-section">
 <h2 class="section-title">Contact</h2>
 <p>Email: <a href="mailto:niyati2005@gmail.com">niyati2005@gmail.com</a></p>
 <p>GitHub: <a href="https://github.com/niyati2912" target="_blank">github.com/niyati2912</a></p>
 </section>
 
-<!-- 👣 Footer -->
+
 <footer>
 <p>© 2025 Niyati Aggarwal. All rights reserved.</p>
 </footer>
 
-<!-- 💡 Script -->
+
 <script src="script.js"></script>
 </body>
 </html>
